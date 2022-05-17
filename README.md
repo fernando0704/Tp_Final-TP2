@@ -25,3 +25,26 @@ Permite el alta, baja, identificación, clasificación y modificación de sucurs
 - rutaCategorias
 - rutaProductos
 - rutaSucursales
+
+REGLAS DE NEGOCIO:
+
+- El costo del envío se reduce dependiendo del nivel de cada usuario:
+nivel 1: no tiene descuento
+nivel 2: 20%
+nivel 3: 30%
+- Si se pasan los $10.000 el envío es gratis.
+- El usuario suma puntos con cada compra y canjearlos por productos o parte de pago
+puntos por compra: +1 pts
+puntos por cada $200: +1 pts
+- El usuario podrá subir de nivel por los siguientes motivos:
+haber realizado 10 compras superiores a $5000 
+haber comprado 5 productos o más con comodines
+haber referenciado a 3 nuevos usuarios
+nivel 2: +100 pts
+nivel 3: +250 pts
+- Mostrar diferentes medios de pago
+- Mostrar sugerencias de otros productos
+- Mostrar cantidad de productos en stock
+
+
+
